@@ -1,0 +1,23 @@
+{
+  "name": "LXDrinks",
+  "version": "0.1.0",
+  "description": "Simple drinks list in Electron and typescript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": "https://github.com/LexxUtopia/LXDrinks",
+  "keywords": [
+    "Electron",
+    "typescript"
+  ],
+  "author": "Lexx Damm",
+  "licence": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^3.0.9",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}
